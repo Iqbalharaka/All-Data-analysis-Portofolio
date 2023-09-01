@@ -9,5 +9,10 @@ After a year of transitioning from philosopy to data analysis, I have forged my 
 
 This repository serves to showcase my skills and as a platform to share my projects, and a way to track my progress in Data Analytics and Data Science-related topics.
 
+### Portofolio Project
+In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
+-Chicago Taxi Trips
+-Querry Project Assignment of Traffic Crash
+
 
 
