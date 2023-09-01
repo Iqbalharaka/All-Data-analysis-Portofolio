@@ -1,6 +1,6 @@
->Iqbal Haraka Mahendra - Data Analyst
+## Iqbal Haraka Mahendra - Data Analyst
 
-About
+### About
 
 Hi, I am Iqbal. I am a man who strive in the path of data. I hold philosophy degree in my study. 
 I am person with passion for seeking and exploring knowledge and understanding. In my journey led me down the mysterious paths, where I explored the vast landscapes of knowledge. 
