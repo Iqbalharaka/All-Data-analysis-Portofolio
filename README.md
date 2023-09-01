@@ -12,8 +12,8 @@ This repository serves to showcase my skills and as a platform to share my proje
 ### Portofolio Project
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
--Chicago Taxi Trips
--Querry Project Assignment of Traffic Crash
+- Chicago Taxi Trips
+- Querry Project Assignment of Traffic Crash
 
 
 
