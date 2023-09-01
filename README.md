@@ -1,4 +1,4 @@
-#Iqbal Haraka Mahendra - Data Analyst
+>Iqbal Haraka Mahendra - Data Analyst
 
 About
 
