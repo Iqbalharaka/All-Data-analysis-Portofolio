@@ -1,0 +1,53 @@
+--Dataset: Look E-Commerce
+--Source: Refocus Data Analytics Course
+--Queried using: PGAdmin
+
+Case Studies
+You are a junior data analyst at The Look Ecommerce. The focus of
+This company focuses on selling fashion to various countries through an app.
+The company's main goal is to make consumers feel good about
+with themselves and with the products that the company sells.
+In order for the company to continue to grow, it needs key results that will be a standard for the team and the company. A team is considered successful if it achieves a key result. Your manager decides to change 
+the key results that must be achieved every month are as follows
+1. Total sales/turnover generated each month is more than USD
+200.000.
+2.  The average processing time from the time the order is created_at to shipped_at is 12 hours. Average shipping time is reviewed monthly
+3. 
+
+--Create table for city bike lanes data
+CREATE TABLE order_items (
+id integer primary key,
+order_id integer,
+user_id integer,
+product_id integer,
+inventory_items_id integer,
+status text,
+created_at timestamp,
+shipped_at timestamp,
+delivered_at timestamp,
+returned_at timestamp,
+sale_price numerik);
+
+-- Get an overview of the data
+SELECT * FROM order_items 
+LIMIT 100;
+
+-- Answering first question. We look for last 3 month
+select sum(sale_price) omset_permonth,
+to_char(created_at,'yyyy-mm') month_year
+from order_items
+group by to_char(created_at,'yyyy-mm')
+having sum(sale_price) > 200000
+order by month_year desc
+limit 3
+
+--Answering second question
+select avg(shipped_at-created_at) lama_proses ,
+to_char(created_at,'yyyy-mm') month_year
+from order_items
+where created_at>='2022-07-01' And created_at<'2022-10-01'
+group by month_year 
+
+
+
+
